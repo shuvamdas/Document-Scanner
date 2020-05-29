@@ -2,7 +2,7 @@
 
 The script takes an image as input and then scans the document from the image by applying few image processing techniques and gives the output image with scanned effect
 
-## How does it do this?
+## Steps involved-
 Initially we need to resize the images so OpenCV can handle it and then the following functions are applied
 1) Guassian Blur to smoothen image.
 2) Canny Edges to detect the edges.
